@@ -1,5 +1,5 @@
 # calculator_spec.rb
-require_relative 'calculator' # Asegúrate de ajustar la ruta según la ubicación de tu archivo
+require_relative 'calculator' 
 calculator.rb
 RSpec.describe Calculator do
   let(:calculator) { Calculator.new }
