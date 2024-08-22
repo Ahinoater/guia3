@@ -14,10 +14,10 @@ end
 
 describe "#nombre" do
   it "Retorna saludo con nombre en mayúscula para nombres en minúscula" do
-    expect(nombre("maria")).to eq("hello Maria")
+    expect(nombre("ana")).to eq("hello Ana")
   end
   it "Retorna saludo para nombres con espacios al inicio y al final" do
-    expect(nombre("  john  ")).to eq("hello John")
+    expect(nombre("  ahinoa  ")).to eq("hello Ahinoa")
   end
 end
 
